@@ -68,7 +68,8 @@ nav h1 {
 }
 
 .hero-banner {
-    background-image: url(anny\ c.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url(anny\ c.jpg);
+    /* backdrop-filter: blur(10px) brightness(50%); */
     background-size: cover;
     background-position: center;
     height: 50vh;
